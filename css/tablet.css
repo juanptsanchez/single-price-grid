@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ================================================
+CARD-CONTAINER
+================================================ */
+.card__container--grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 1fr;
+    max-width: 800px;
+    filter:drop-shadow(0 12px 24px rgba(0,0,0,.35));
+    margin-bottom: 4rem;
+}
+.card {
+    padding: 3rem 4rem;
+}
+
+/* CARD JOIN */
+.card__join {
+    grid-column: 1 / 3;
+}
+
+/* CARD SUBSCRIPTION */
+.card__subscription {
+    border-radius: 0 0 0 1rem;
+}
+
+/* CARD WHY */
+.card__why {
+    background-color: var(--lightCyan);
+    border-radius: 0 0 1rem 0;
+}

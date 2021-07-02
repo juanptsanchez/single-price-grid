@@ -1,0 +1,153 @@
+/* ========================================= 
+VARIABLES FONTS / COLORS
+=========================================== */
+:root {
+/* FONTS */
+--bodyFont: 'Karla', sans-serif;
+
+/* PRIMARY COLORS */
+--cyan: hsl(179, 62%, 43%);
+--brightYellow: hsl(71, 73%, 54%);
+--lightCyan: #4abebd;
+
+/* NEUTRAL COLORS */
+--grayishBlue: hsl(218, 22%, 67%);
+--lightGray: hsl(204, 43%, 93%);
+}
+
+/* ========================================= 
+BOX-SIZING / FONT SIZE
+=========================================== */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* ================================================
+GLOBAL
+================================================ */
+body {
+    font-family: var(--bodyFont);
+    background-color: var(--lightGray);
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 80%;
+}
+h1, h3 {
+    font-size: 2.2rem;
+    font-weight: 200;
+}
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+h1, h2, h3 {
+    margin-top: 0;
+}
+p {
+    font-size: 1.3rem;
+}
+
+/* ================================================
+CARD-CONTAINER
+================================================ */
+.card__container--grid {
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card {
+    padding: 3rem 2rem;
+}
+
+/* CARD JOIN */
+.card__join {
+    background-color: #fff;
+    border-radius: 1rem 1rem 0 0;
+}
+.card__join h1 {
+    color: var(--cyan);
+    margin-bottom: 2rem;
+}
+.card__join h2 {
+    color: var(--brightYellow);
+}
+.card__join p {
+    color: var(--grayishBlue);
+    word-spacing: .3rem;
+    line-height: 2rem;
+    margin-bottom: 0;
+}
+
+/* CARD SUBSCRIPTION */
+.card__subscription {
+    background-color: var(--cyan);
+}
+.card__subscription h3 {
+    color: #fff;
+}
+.price {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+} 
+.price i {
+    font-size: 2.5rem;
+}
+.price span {
+    color: #78d5dc;
+    font-size: 1.5rem;
+}
+.price__info {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin: 1rem 0 3rem 0;
+}
+.subscription__btn {
+    display: flex;
+    justify-content: center;
+}
+.subscription__btn a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--brightYellow);
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    filter:drop-shadow(0 12px 24px rgba(0,0,0,.35));
+    max-width: 300px;
+}
+
+/* CARD WHY */
+.card__why {
+    background-color: var(--lightCyan);
+    border-radius: 0 0 1rem 1rem;
+}
+.card__why {
+    color: #fff;
+}
+.card__why p {
+    line-height: 1rem;
+    color: #b4f4f4;
+}
+.card__why p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* ================================================
+FOOTER
+================================================ */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
