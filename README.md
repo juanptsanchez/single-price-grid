@@ -22,12 +22,13 @@ Users should be able to:
 ### Screenshot
 
 [Mobile](images/mobile.png)
+
 [Desktop](images/desktop.png)
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Netlify]()
+- Solution URL: [Github](https://github.com/juanptsanchez/single-price-grid)
+- Live Site URL: [Netlify](https://relaxed-blackwell-ddc8eb.netlify.app/)
 
 ### Built with
 
@@ -39,7 +40,7 @@ Users should be able to:
 
 ### What I learned
 
-Use Flexbox in my project. 
+Use Flexbox and CSS Grid in my project. 
 
 ### Useful resources
 
