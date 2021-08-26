@@ -1,6 +1,4 @@
-# Frontend Mentor - Single price grid component solution
-
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Single price grid
 
 ## Table of contents
 
@@ -8,7 +6,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -22,13 +19,12 @@ Users should be able to:
 ### Screenshot
 
 [Mobile](images/mobile.png)
-
 [Desktop](images/desktop.png)
 
 ### Links
 
 - Solution URL: [Github](https://github.com/juanptsanchez/single-price-grid)
-- Live Site URL: [Netlify](https://relaxed-blackwell-ddc8eb.netlify.app/)
+- Live Site URL: [Netlify](https://single-price-grid-test.netlify.app/)
 
 ### Built with
 
@@ -38,10 +34,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
-Use Flexbox and CSS Grid in my project. 
-
 ### Useful resources
 
 - [Google Fonts](https://fonts.google.com/) - This helped me select the font and use it in my project.
@@ -50,5 +42,4 @@ Use Flexbox and CSS Grid in my project.
 
 ## Author
 
-- Website - [Github](https://github.com/juanptsanchez)
-- Frontend Mentor - [@juanptsanchez](https://www.frontendmentor.io/profile/juanptsanchez)
+- Juan Pablo Torres Sánchez - [Github](https://github.com/juanptsanchez)
